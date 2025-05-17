@@ -1,0 +1,20 @@
+Preinstallation done
+Client
+npm @
+npm install 
+npm run dev
+
+Server
+npm init -y
+npm install mongoose
+npm install bcrypt
+npm install zod
+npm install jsonwebtokens
+npm install xlsx
+npm install multer
+node server.js
+
+Setup
+git:
+server folder--> node server.js
+client/vite-project---> npm run dev

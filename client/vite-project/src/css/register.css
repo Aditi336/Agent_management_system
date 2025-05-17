@@ -1,0 +1,71 @@
+/* Header */
+#header-register {
+    text-align: center;
+    font-size: 42px;
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input Fields */
+input {
+    font-size: 18px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5a67d8;
+}
+
+/* Table Container */
+#table-register {
+    margin: auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Layout */
+table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+/* Labels */
+th {
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Submit and Reset Buttons */
+#submit-register,
+#reset-register {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #5a67d8;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#submit-register:hover,
+#reset-register:hover {
+    background-color: #434190;
+}

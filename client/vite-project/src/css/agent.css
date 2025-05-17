@@ -1,0 +1,86 @@
+.agent-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4b0082;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.agent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 20px 40px;
+}
+
+.agent-card {
+    background-color: #f8f8ff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.agent-card:hover {
+    transform: translateY(-5px);
+    background-color: #e6e6fa;
+}
+
+.agent-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5a32a3;
+    margin-bottom: 10px;
+}
+
+.agent-email, .agent-phone {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+.plus-button {
+  width: 50px;
+  height: 50px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.plus-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  background-color: #45a049;
+}
+
+.plus-button:active {
+  transform: scale(1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.delete-button {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+  transform: scale(1.2);
+}

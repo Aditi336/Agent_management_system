@@ -1,0 +1,80 @@
+.ditribute_task_body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.table_tasks {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table_tasks thead {
+  background-color: #1c7fe1;
+  color: white;
+}
+
+.table_tasks th,
+.table_tasks td {
+  padding: 12px 18px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table_tasks tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table_tasks tbody tr:hover {
+  background-color: #e1ecf4;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+.button-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.distribute-btn,
+.upload-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.distribute-btn {
+  background-color: #2563eb; /* Blue */
+}
+
+.distribute-btn:hover {
+  background-color: #1d4ed8; /* Darker Blue */
+}
+
+.upload-btn {
+  background-color: #16a34a; /* Green */
+}
+
+.upload-btn:hover {
+  background-color: #15803d; /* Darker Green */
+}
