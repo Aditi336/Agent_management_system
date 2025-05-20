@@ -1,6 +1,8 @@
 ﻿# Agent_management_system
-## client/vite-project
-nmp run dev
+### client/vite-project
+```npm install
+nmp run dev```
 
-## server
-node server.js
+### server
+```npm install
+node server.js```
